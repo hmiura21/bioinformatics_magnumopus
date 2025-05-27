@@ -62,7 +62,14 @@ pip install biopython
 
 
 ## 📁 Directory Structure
-project/
+```bash
+├── magnumopus
+│   ├── __init__.py
+│   ├── ispcr.py
+│   ├── mapping.py
+│   ├── nw.py
+│   ├── run_external.py
+│   ├── sam.py
 ├── magop.py
 ├── data/
 │   ├── assemblies/
@@ -78,5 +85,6 @@ project/
 │   └── refs/
 │       └── V4.fna
 └── README.md
+```
 
 
