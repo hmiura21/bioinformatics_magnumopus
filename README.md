@@ -59,3 +59,24 @@ pip install biopython
   -p data/primers/general_16S_515f_806r.fna \
   -r data/reads/Ecoli_1.fastq data/reads/Ecoli_2.fastq \
   -s data/refs/V4.fna
+
+
+## 📁 Directory Structure
+project/
+├── magop.py
+├── data/
+│   ├── assemblies/
+│   │   └── Escherichia_coli_K12.fna
+│   │   └── Pseudomonas_aeruginosa_PAO1.fna
+│   │   └── ...
+│   ├── reads/
+│   │   ├── ERR11767307_1.fastq
+│   │   └── ERR11767307_2.fastq
+│   │   └── ...
+│   ├── primers/
+│   │   └── general_16S_515f_806r.fna
+│   └── refs/
+│       └── V4.fna
+└── README.md
+
+
